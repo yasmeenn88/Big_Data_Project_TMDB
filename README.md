@@ -1,3 +1,4 @@
+<!--
 # TMDB Data Warehouse ETL Pipeline
 
 A production-grade ETL pipeline that ingests movie data from The Movie Database (TMDB) API, processes it with Apache Spark on YARN, builds a dimensional data warehouse, and loads it into Snowflake.
@@ -368,5 +369,5 @@ SELECT * FROM TMDB_DWH.ANALYTICS.DIM_MOVIE LIMIT 5;
 SELECT COUNT(*) FROM TMDB_DWH.ANALYTICS.FACT_MOVIE_METRICS;
 ```
 
-
+-->
 
