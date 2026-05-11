@@ -25,7 +25,7 @@ The project automates the process of:
 
 ---
 
-# 🏗️ Architecture Overview
+# Architecture Overview
 
 The pipeline follows a layered ETL architecture:
 
@@ -114,6 +114,16 @@ _Add Snowflake screenshots here_
 ![Snowflake](graph/image.png)
 
 ---
+# Airflow
+
+The DAG that represents all tasks in the pipeline.
+
+
+_Add Snowflake screenshots here_
+
+![Airflow](graph/airflow.png)
+
+---
 
 #  Features
 
@@ -128,6 +138,6 @@ _Add Snowflake screenshots here_
 ---
 
 
-# 👩‍💻 Author
+#  Author
 
 Yasmeen Wael
