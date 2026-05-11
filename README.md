@@ -107,9 +107,6 @@ Complete graphical overview of the entire system.
 
 The processed Star Schema is loaded into Snowflake for scalable cloud analytics.
 
-## Snowflake Screenshots
-
-_Add Snowflake screenshots here_
 
 ![Snowflake](graph/image.png)
 
@@ -117,9 +114,6 @@ _Add Snowflake screenshots here_
 # Airflow
 
 The DAG that represents all tasks in the pipeline.
-
-
-_Add Snowflake screenshots here_
 
 ![Airflow](graph/airflow.png)
 
