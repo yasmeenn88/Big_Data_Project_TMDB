@@ -12,7 +12,7 @@ The project automates the process of:
 
 ---
 
-# ⚙️ Tech Stack
+#  Tech Stack
 
 - Python
 - Apache Spark
@@ -38,23 +38,26 @@ TMDB API → HDFS → Spark Processing → Star Schema → Snowflake → Power B
 ```bash
 .
 ├── dags/
-│   └── etl_pipeline.py
+│ └── etl_pipeline.py
 │
 ├── docker/
-│   └── nodemanager/
-│       └── Dockerfile
-│
+│ ├── nodemanager/
+│ │ └── dockerfile
+│ └── docker-compose.yml
 │
 ├── spark_jobs/
+│ ├── clean_transform.py
+│ ├── ingest_to_hdfs.py
+│ ├── load_to_snowflake.py
+│ └── star_schema.py
 │
 ├── FINAL_TMDB.pbix
-├── docker-compose.yml
 └── README.md
 ```
 
 ---
 
-# 🔄 ETL Pipeline
+# ETL Pipeline
 
 ## 1. Data Ingestion
 - Fetches movie data from TMDB API
@@ -84,7 +87,7 @@ Shows the complete movement of data across the pipeline.
 
 ---
 
-# 📈 Power BI Dashboard
+#  Power BI Dashboard
 
 Interactive dashboard built for movie analytics and KPI tracking.
 
@@ -92,7 +95,7 @@ Interactive dashboard built for movie analytics and KPI tracking.
 
 ---
 
-# 🧠 Full Project Architecture
+#  Full Project Architecture
 
 Complete graphical overview of the entire system.
 
@@ -112,7 +115,7 @@ _Add Snowflake screenshots here_
 
 ---
 
-# 🚀 Features
+#  Features
 
 - Automated ETL Pipeline
 - Distributed processing using Spark
